@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	<form>
+		<section id="UserInfo">	
+			<div>
+				<label for="username">UserName</label>
+			</div>
+			<div>	
+				<input type="text" id="username" required>
+			</div>
+			<div>
+				<label for="password">Password</label>
+			</div>
+			<div>
+				<input type="password" id="password" required>
+			</div>
+			<div>
+				<input type="submit">
+			</div>
+		</section>
+				<section id="GenderQuery">
+			<p>Gender</p>
+			<div>
+				<input type ="radio" name ="gender" value="female" checked required>Female
+			</div>
+			<div>
+				<input type="radio" name ="gender" value="male"> Male
+			</div>
+			<div>
+				<input type="radio" name ="gender" value="other">Other
+			</div>
+		</section>
+		<section id="CourseQuery">
+			<p>Course Done</p>
+			<div>
+				<input type = "checkbox" name="course" value="c++">C++
+			</div>
+			<div>
+				<input type = "checkbox" name="course" value="java">java
+			</div>
+			<div>
+				<input type = "checkbox" name="course" value="web development">web development
+			</div>
+		</section>
+		<section id="dropDownMenu">
+			<p>Select Month</p>
+			<select value = "Month">
+				<option>jan</option>
+				<option selected>feb</option>
+				<option>March</option>
+				<option>April</option>
+				<option>May</option>
+
+			</select>
+		</section>
+		<section id="textInput">
+			<p>Share your Experience</p>
+			<textarea name="feedback" rows="10"  cols="50">
+			</textarea>
+		</section>
+		<section id = "Buttons">
+			<input type ="button" name = "buttons" value ="Button1">
+			<button type="reset" name="buttons">Button2</button>
+		</section>
+	</form>
+</body>
+</html>
