@@ -1,0 +1,12 @@
+#ground{
+	height: 80vh;
+	width: 100vw;
+	background-image: url("image/BACK.jpg");
+	background-size: contain;
+	background-attachment: scroll;
+}
+div h1{
+	font-family: cursive;
+	text-align: center;
+	color: grey;
+}
